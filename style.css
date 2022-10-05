@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-image: url(./social-media-3758364__340.webp);
+  background-size: cover;
+  background-position: center;
+  
+  font-family: sans-serif;
+}
+.container{
+  background: rgb(0,100,0);
+  text-align: center;
+  
+}
+.container ul{
+  display: inline-flex;
+  list-style: none;
+  color: whitesmoke;
+}
+.container ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.container ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+ .container ul li:hover{
+   background: #2bab0d;
+   border-radius: 3px;
+   font-size: 15px;
+   color: black;
+}
+.container .fa{
+  margin-right: 8px;
+}
+.submenu-1{
+  display: none;
+}
+.container ul li:hover .submenu-1{
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top:15px;
+  margin-left:-15px;
+}
+.container ul li:hover .submenu-1 ul{
+  display: block;
+  margin: 10px;
+}
+.container ul li:hover .submenu-1{
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top:15px;
+  margin-left:-15px;
+}
+.container ul li:hover .submenu-1 ul{
+  display: block;
+  margin: 10px;
+}
+.submenu-3 ul{
+ visibility: hidden;
+ margin: 0;
+  
+}
+.submenu-3 ul li{
+  margin-left: 120px;
+  margin-top: 10px;
+  background: rgb(0,100,0);
+  visibility: visible;
+}
